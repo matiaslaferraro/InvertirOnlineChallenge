@@ -9,8 +9,8 @@ Aclaraciones:
 
 ## **La solución**
 
-Se refactoriza la clase FormaGeometrica que se encuentra muy acoplada por una clase abstracta que representa una FormaGeometrica cualquiera. Se crea una subclase por cada tipo de forma que hereda FormaGeometrica implementando cada una sus cálculos propios de áreas y perímetros según corresponda.
-Se inyecta a FormaGeometrica un componente de idioma pensado como una Interfaz para la traudcción de los textos en diferentes idiomas. Cada idioma nuevo que se agrega será una clase que implemente la interfaz común Lenguaje. La traducción se lleva a cabo mediante la búsqueda en un dicctionary de clave/valor. También podía haberse implementado como un archivo json con objetos de traducciones con textos ya preestablecidos.
-Se agregan test para la nueva solución.
+- Se refactoriza la clase FormaGeometrica que se encuentra muy acoplada por una clase abstracta que representa una FormaGeometrica cualquiera. Se crea una subclase por cada tipo de forma que hereda FormaGeometrica implementando cada una sus cálculos propios de áreas y perímetros según corresponda.
+- Se inyecta a FormaGeometrica un componente de idioma pensado como una Interfaz para la traudcción de los textos en diferentes idiomas. Cada idioma nuevo que se agrega será una clase que implemente la interfaz común Lenguaje. La traducción se lleva a cabo mediante la búsqueda en un dicctionary de clave/valor. También podía haberse implementado como un archivo json con objetos de traducciones con textos ya preestablecidos.
+- Se crean nuevos test para la nueva solución.
 
 
