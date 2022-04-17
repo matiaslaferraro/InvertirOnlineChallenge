@@ -31,6 +31,7 @@ namespace CodingChallenge.Data.Classes
             AgregarNuevaTraduccion("Trapezoid", "Trapézio");
             AgregarNuevaTraduccion("Trapezoids", "Trapézios");
             AgregarNuevaTraduccion("Equilateral", "Equilatero");
+            AgregarNuevaTraduccion("Scalene", "Escaleno");
             AgregarNuevaTraduccion("It is not an equilateral triangle.", "Não é um triângulo equilátero.");
         }
 
